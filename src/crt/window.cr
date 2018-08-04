@@ -1,7 +1,8 @@
 # coding: utf-8
 module Crt
   class Window
-    getter row, col
+    getter row : Int32
+    getter col : Int32
 
     def initialize(@row = -1, @col = -1, y = 0, x = 0)
       Crt.init
